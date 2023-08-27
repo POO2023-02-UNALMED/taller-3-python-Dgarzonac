@@ -1,5 +1,4 @@
 class Marca:
-    __nombre = None
     def __init__(self, nombre):
         self.nombre=nombre
     def setMarca(self,nombre):
