@@ -11,14 +11,14 @@ class TV:
         TV.numTV+=1
     
     def canalUp(self):
-        if self.estado:
+        if self.estado==True:
             if self.canal < 120:
                 self.canal += 1
     
     def canalDown(self):
         if self.estado:
             if self.canal > 1:
-                self.canal += 1
+                self.canal -= 1
     
     def volumenUp(self):
         if self.estado:
@@ -28,7 +28,7 @@ class TV:
     def volumenDown(self):
         if self.estado:
             if self.volumen > 0:
-                self.volumen += 1
+                self.volumen -= 1
 
     def turnOn(self):
         self.estado = True
