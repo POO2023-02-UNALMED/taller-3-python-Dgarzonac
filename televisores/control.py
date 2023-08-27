@@ -36,3 +36,6 @@ class Control:
     
     def getTv(self):
         return self.tv
+    
+    def getControl(self):
+        return self.control
