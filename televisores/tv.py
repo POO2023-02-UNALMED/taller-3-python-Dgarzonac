@@ -3,8 +3,6 @@ class TV:
     def __init__(self, marca, estado):
         self.marca = marca
         self.estado = estado
-        self.Marca = None
-        self.Control = None
         self.canal = 1
         self.precio = 500
         self.estado = None
