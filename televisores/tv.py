@@ -7,7 +7,7 @@ class TV:
         self.precio = 500
         self.volumen = 1
         self._numTV = 0
-        self._control = None
+        self.control = None
         TV._numTV+=1
     
     def canalUp(self):
